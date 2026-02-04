@@ -1,5 +1,6 @@
 "use strict"
 
+// Declaracion del objeto peliculas
 const peliculas = [
   { titulo: "Aventura Espacial", edadMinima: 12, precio: 8.5, esEstreno: true },
   { titulo: "Comedia Local", edadMinima: 0, precio: 6.0, esEstreno: false },
