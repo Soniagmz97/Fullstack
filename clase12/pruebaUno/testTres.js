@@ -1,0 +1,5 @@
+"use strict"
+
+import os from 'node:os'
+
+console.log(os.platform())
