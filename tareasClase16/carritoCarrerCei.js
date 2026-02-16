@@ -25,14 +25,6 @@ const inventario = [
     }
 ]
 
-// const agregarCarrito = (nombreProducto, cantidadDeseada) => {
-//     const producto = inventario.find(prod => prod.nombre === nombreProducto)
-    
-//     if (producto && (cantidadDeseada <= producto.stock)){
-//         return `Total a pagar: ${producto.precio * cantidadDeseada}€`
-//     }
-// }
-
 const agregarCarrito = (nombreProducto, cantidadDeseada) => {
     const producto = inventario.find(prod => prod.nombre === nombreProducto)
     

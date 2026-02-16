@@ -28,8 +28,6 @@ const heros = () =>{
     return arrayAvengers
 }
 
-console.log(heros())
-
 const subirNivel = (nombreHeroe) => {
     heroes.forEach(( eachHero, index ) => {
         if (eachHero.nombre === nombreHeroe){
@@ -39,5 +37,7 @@ const subirNivel = (nombreHeroe) => {
 
     return heroes
 }
+
+console.log(heros())
 
 console.log(subirNivel(`Iron Man`))
