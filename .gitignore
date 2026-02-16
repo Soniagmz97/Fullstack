@@ -1,7 +1,7 @@
 dist
 build
 coverage
-.env
+*.env
 .DS_Store
 .idea
 .vscode
