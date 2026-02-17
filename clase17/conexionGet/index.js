@@ -14,12 +14,12 @@ const client = new MongoClient(uri, {
     }
 })
 
-app.get(`/productos`, async (requestAnimationFrame, res) => {
+app.get(`/supermercado`, async (requestAnimationFrame, res) => {
     try {
         await client.connect()
-        const db = client.db(`Cafeteria_JS`)
-        const productos = db.collection(`productos`)
-        const lista = await productos.find({}).toArray()
+        const db = client.db(`Supermercado`)
+        const supermercado = db.collection(`Supermercado`)
+        const lista = await supermercado.find({}).toArray()
         res.json({success: false, data: lista})
         console.log(`Te has conectado a la base de datos!`)
     } catch (error) {
@@ -31,5 +31,5 @@ app.get(`/productos`, async (requestAnimationFrame, res) => {
 
 const port = 3000
 app.listen(port, () =>{
-    console.log(`URL: http://localhost:${port}/productos`)
+    console.log(`URL: http://localhost:${port}/supermercado`)
 })
