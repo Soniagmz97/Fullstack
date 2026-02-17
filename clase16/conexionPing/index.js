@@ -2,7 +2,7 @@ import dotenv from "dotenv"
 import { MongoClient, ServerApiVersion } from "mongodb"
 dotenv.config()
 
-const uri = ProcessingInstruction.env.MONGODB_URI
+const uri = process.env.MONGO_URI
 
 const client = new MongoClient(uri, {
     serverApi: {
@@ -18,7 +18,7 @@ const run = async () =>{
         await client.db(`admin`).command({ping:1})
         console.log(`Pinged your desployment. You succesfully connected to MongoDB`)
 
-        const dbName = `Cafeteria_JS`
+        const dbName = `TiendaRopa`
         const adminDb = client.db(`admin`)
         const dbList = await adminDb.admin().listDatabases()
         const exist = dbList.databases.some((db) => db.name === dbName)
