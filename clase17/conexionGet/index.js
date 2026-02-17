@@ -21,7 +21,7 @@ app.get(`/supermercado`, async (req, res) => {
         const db = client.db(`Supermercado`)
         const supermercado = db.collection(`Supermercado`)
         const lista = await supermercado.find({}).toArray()
-        res.json({success: false, data: lista})
+        res.json({success: true, data: lista})
         console.log(`Te has conectado a la base de datos!`)
     } catch (error) {
         res.status(500).json({success: false, message: error.message})
