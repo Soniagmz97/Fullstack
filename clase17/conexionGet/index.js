@@ -5,6 +5,7 @@ dotenv.config()
 
 const app = express()
 const uri = process.env.MONGO_URI
+const port = 3000
 
 const client = new MongoClient(uri, {
     serverApi: {
@@ -14,7 +15,7 @@ const client = new MongoClient(uri, {
     }
 })
 
-app.get(`/supermercado`, async (requestAnimationFrame, res) => {
+app.get(`/supermercado`, async (req, res) => {
     try {
         await client.connect()
         const db = client.db(`Supermercado`)
@@ -29,7 +30,6 @@ app.get(`/supermercado`, async (requestAnimationFrame, res) => {
     }
 })
 
-const port = 3000
 app.listen(port, () =>{
     console.log(`URL: http://localhost:${port}/supermercado`)
 })
