@@ -1,0 +1,42 @@
+Pasar a interface:
+
+// Ejemplo de uso:
+const ejemploRespuesta: Respuesta = {
+  _id: {
+    $oid: "5a9427648b0beebeb69579e7"
+  },
+  name: "Mercedes Tyler",
+  email: "mercedes_tyler@fakegmail.com",
+  movie_id: {
+    $oid: "573a1390f29313caabcd4323"
+  },
+  text: "Eius veritatis vero facilis quaerat fuga temporibus. Praesentium expedita sequi repellat id. Corporis minima enim ex. Provident fugit nisi dignissimos nulla nam ipsum aliquam.",
+  codes: {
+    number: 123,
+    string: "abc",
+    boolean: true 
+  },
+  date: {
+    $date: "2002-08-18T04:56:07Z"
+  }
+};
+// Ejemplo de uso:
+const ejemploRespuesta: Respuesta = {
+  _id: {
+    $oid: "5a9427648b0beebeb69579e7"
+  },
+  name: "Mercedes Tyler",
+  email: "mercedes_tyler@fakegmail.com",
+  movie_id: {
+    $oid: "573a1390f29313caabcd4323"
+  },
+  text: "Eius veritatis vero facilis quaerat fuga temporibus. Praesentium expedita sequi repellat id. Corporis minima enim ex. Provident fugit nisi dignissimos nulla nam ipsum aliquam.",
+  codes: {
+    number: 123,
+    string: "abc",
+    boolean: true 
+  },
+  date: {
+    $date: "2002-08-18T04:56:07Z"
+  }
+};
