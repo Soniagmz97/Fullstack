@@ -1,5 +1,7 @@
+var nombreOne = "Bruno D\u00EDaz";
+var artesMarcialesUno = ["Karate", "Aikido", "Wing Chun", "Jiu-Jitsu"];
 var batman = {
-    nombre: "Bruno D\u00EDaz",
-    artesMarciales: ["Karate", "Aikido", "Wing Chun", "Jiu-Jitsu"]
+    nombre: nombreOne,
+    artesMarciales: artesMarcialesUno
 };
 console.log(batman);

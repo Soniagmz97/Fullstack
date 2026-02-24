@@ -1,8 +1,8 @@
-let nombre:string = `Alberto Rojas`
-let edad:number = 38
+let nombreOne:string = `Alberto Rojas`
+let edadOne:number = 38
 const PERSONAJE : {nombre:string, edad:number} = {
-    nombre: nombre,
-    edad: edad
+    nombre: nombreOne,
+    edad: edadOne
 }
 
 console.log(PERSONAJE)

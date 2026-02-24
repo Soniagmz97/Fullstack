@@ -1,7 +1,7 @@
-var nombre = "Alberto Rojas";
-var edad = 38;
+var nombreOne = "Alberto Rojas";
+var edadOne = 38;
 var PERSONAJE = {
-    nombre: nombre,
-    edad: edad
+    nombre: nombreOne,
+    edad: edadOne
 };
 console.log(PERSONAJE);
