@@ -1,7 +1,7 @@
-var nombre = "Alberto Rojas";
-var edad = 38;
-var PERSONAJE = {
-    nombre: nombre,
-    edad: edad
+// let mensaje:string = `Hola mundo`
+var newUser = {
+    id: 1,
+    nombre: "Sonia",
+    email: "algo@algo.com"
 };
-console.log(PERSONAJE);
+console.log(newUser);

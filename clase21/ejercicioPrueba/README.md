@@ -1,1 +1,3 @@
-En el siguiente ejercicio se procederá a transformar un ejercicio de JS a Typescript.
+Bienvenidos a esta clase.
+
+Hoy veremos TypeScript básico y React básico.

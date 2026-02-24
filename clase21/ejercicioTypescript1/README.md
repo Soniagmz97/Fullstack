@@ -1,0 +1,1 @@
+En el siguiente ejercicio se procederá a transformar un ejercicio de JS a Typescript.

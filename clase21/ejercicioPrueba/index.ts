@@ -1,8 +1,29 @@
-let nombre:string = `Alberto Rojas`
-const edad:number = 38
-let PERSONAJE = {
-    nombre : nombre,
-    edad : edad
+// let mensaje:string = `Hola mundo`
+
+// let conteo = 5
+
+// console.log(mensaje)
+// console.log(conteo)
+
+// const saludar = (saludo:number) => {
+//     return console.log(saludo)
+// }
+
+// saludar(5)
+
+
+// Interface
+interface Usuario {
+    id:number,
+    nombre:string,
+    email:string
+    // opcional --> puede o no estar
+    premium?:string
 }
 
-console.log(PERSONAJE)
+const newUser:Usuario = {
+    id: 1,
+    nombre: `Sonia`,
+    email: `algo@algo.com`
+}
+console.log(newUser)
