@@ -1,7 +1,7 @@
-var nombreOne = "Bruno D\u00EDaz";
-var artesMarcialesUno = ["Karate", "Aikido", "Wing Chun", "Jiu-Jitsu"];
+// const nombreOne:string = `Bruno Díaz`
+// const artesMarcialesUno:string[] = [`Karate`, `Aikido`, `Wing Chun`, `Jiu-Jitsu`]
 var batman = {
-    nombre: nombreOne,
-    artesMarciales: artesMarcialesUno
+    nameJusticeLeague: "Bruno D\u00EDaz",
+    marcialArts: ["Karate", "Aikido", "Wing Chun", "Jiu-Jitsu"]
 };
 console.log(batman);
