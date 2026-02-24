@@ -1,6 +1,6 @@
 let nombre:string = `Alberto Rojas`
-const edad:number = 38
-let PERSONAJE = {
+let edad:number = 38
+const PERSONAJE = {
     nombre : nombre,
     edad : edad
 }
