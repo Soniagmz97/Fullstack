@@ -15,7 +15,7 @@ interface perfilUsuario {
 }
 
 let usuario1:perfilUsuario = {
-    userName: `Usuario_1`,
+    userName: `usuario_1`,
     email: `usuario1@algo.com`,
     age: 22,
     biography: `Estudiante de Informática en la universidad.`,
@@ -23,7 +23,7 @@ let usuario1:perfilUsuario = {
 }
 
 let usuario2:perfilUsuario = {
-    userName: `Usuario_2`,
+    userName: `usuario_2`,
     email: `usuario2@algo.com`,
     age: 50,
 }
