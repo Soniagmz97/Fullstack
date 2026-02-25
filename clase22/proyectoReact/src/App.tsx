@@ -1,4 +1,4 @@
-import HolaMundo from './components/holaMundo'
+import HolaMundo from './components/HolaMundo'
 import './App.css'
 
 const App = () => {
