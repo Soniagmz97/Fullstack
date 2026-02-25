@@ -1,5 +1,6 @@
 // import HolaMundo from './components/HolaMundo'
-import Sonia from './components/Sonia'
+// import Sonia from './components/Sonia'
+import Perfil from './components/Perfil'
 import './App.css'
 
 const App = () => {
@@ -7,7 +8,8 @@ const App = () => {
   return (
     <>
       {/* <HolaMundo/> */}
-      <Sonia />
+      {/* <Sonia /> */}
+      <Perfil />
     </>
   )
 }
