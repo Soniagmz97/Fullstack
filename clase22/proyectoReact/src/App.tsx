@@ -19,6 +19,7 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <h2>Hola mundo</h2>
+        <p>Este es un proyecto de React de prueba.</p>
       </div>
     </>
   )
