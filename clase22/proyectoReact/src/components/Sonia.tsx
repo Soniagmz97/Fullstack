@@ -10,7 +10,7 @@ const Sonia = () => {
         <>
             <div>Me llamo {nombre}, tengo {edad} años. Primero he sido {trabajos[0]} y ahora estoy trabajando como {trabajos[1]}</div>
             <div>Hobbies:</div>
-            <div>{hobbies}</div>
+            <div>{hobbies[0]} - {hobbies[0]}</div>
         </>
     )
 }
