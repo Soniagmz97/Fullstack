@@ -1,0 +1,17 @@
+/* Estilo base */
+.plan-card {
+  border: 3px solid;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  font-family: sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* popular */
+.destacado {
+  border: 5px solid black;
+  box-shadow: 5px 5px 10px rgb(53, 53, 53);
+  background-color: aquamarine;
+}

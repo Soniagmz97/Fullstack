@@ -1,16 +1,23 @@
 import './App.css'
 // import Server from './components/Server'
-import Badge from './components/Badge'
+// import Badge from './components/Badge'
+import PlanCard from './components/PlanCard'
 function App() {
   return (
     <>
+      {/* SERVER */}
       {/* <Server serverName='Web principal' status='online'></Server>
     <Server serverName='Base de Datos' status='online'></Server>
     <Server serverName='Api de Pagos' status='offline'></Server> */}
 
-    <Badge productName='camiseta' cantidad={0}/>
+      {/* BADGE */}
+      {/* <Badge productName='camiseta' cantidad={0}/>
     <Badge productName='pantalones' cantidad={5}/>
-    <Badge productName='abrigo' cantidad={15}/>
+    <Badge productName='abrigo' cantidad={15}/> */}
+
+      {/* PLAN */}
+      <PlanCard nombrePlan='Familiar' esPopular={true} />
+      <PlanCard nombrePlan='Individual' esPopular={false} />
     </>
   )
 }
