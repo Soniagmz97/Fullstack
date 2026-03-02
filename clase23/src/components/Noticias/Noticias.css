@@ -1,0 +1,43 @@
+/* General */
+.Article{
+    width: 100%;
+    
+    margin: 0 auto;
+}
+.Container{
+    width: 90%;
+    background-color: rgb(245, 245, 245);
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+}
+.Container-title{
+    width: 60%;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.container-summary{
+    width: 70%;
+    color: rgb(185, 185, 185);
+
+    text-align: center;
+
+    font-weight: lighter;
+    font-size: 1.8em;
+}
+
+.Subcontainer{
+    width: 80%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    gap: .9375rem;
+}
