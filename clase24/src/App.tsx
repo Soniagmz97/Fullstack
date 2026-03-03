@@ -1,7 +1,9 @@
 import './App.css'
 // import Server from './components/Server'
 // import Badge from './components/Badge'
-import PlanCard from './components/PlanCard'
+// import PlanCard from './components/PlanCard'
+import Notificacion from './components/Notificacion'
+
 function App() {
   return (
     <>
@@ -16,8 +18,13 @@ function App() {
     <Badge productName='abrigo' cantidad={15}/> */}
 
       {/* PLAN */}
-      <PlanCard nombrePlan='Familiar' esPopular={true} />
-      <PlanCard nombrePlan='Individual' esPopular={false} />
+      {/* <PlanCard nombrePlan='Familiar' esPopular={true} />
+      <PlanCard nombrePlan='Individual' esPopular={false} /> */}
+
+      {/* NOTIFICATIONS */}
+      <Notificacion tipo='exito' mensaje='Usuario creado'/>
+      <Notificacion tipo='alerta' mensaje='No hay gasolina'/>
+      <Notificacion tipo='error' mensaje='No se pudo guardar en la base de datos'/>
     </>
   )
 }
